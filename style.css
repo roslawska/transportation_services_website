@@ -76,7 +76,7 @@ a{
 #hero h1:nth-child(2) span{
    animation-delay: 1.5s;
 }
-#hero .cta{
+/* #hero .cta{
    display: inline-block;
    padding: 10px 30px;
    color: white;
@@ -88,11 +88,11 @@ a{
    margin-top: 30px;
    transition: .3s ease;
    transition-property: background-color, color;
-}
-#hero .cta:hover{
+} */
+/* #hero .cta:hover{
    color: white;
    background-color: crimson;
-}
+} */
 /* End Hero Section */
 
 /* Key frames */

@@ -299,7 +299,6 @@ p{
    height: 98%;
    width: 98%;
    border: 7px solid crimson;
-
    z-index: -1;
 }
 /* Koniec sekcji o nas */
@@ -377,6 +376,19 @@ p{
    width: 100%;
    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
    opacity: .5;
+}
+/* zmiana w uslugach na galerie */
+.services .owl-carousel .item{
+   /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
+   border-radius: 60px;
+   padding: 25px 35px;
+}
+.services .owl-carousel .item img{
+height: 150px;
+width: 150px;
+object-fit: cover;
+/*border: 50%;
+ border: 1px solid crimson; */ 
 }
 /* Koniec sekcji usług */
 
@@ -621,6 +633,12 @@ p{
    #about .column-right{
       text-align: left;
    }
+   .services .owl-carousel .item img{
+      height: 200px;
+      width: 200px;
+      object-fit: cover;
+
+      }
    #services .service-bottom .service-item{
       flex-basis: 45%;
       margin: 2.5%;
@@ -701,5 +719,12 @@ p{
       flex-basis: 22%;
       margin: 1.5%;
    }
+   .services .owl-carousel .item img{
+      height: 250px;
+      width: 250px;
+      object-fit: cover;
+      /*border: 50%;
+       border: 1px solid crimson; */ 
+      }
 }
 /* End Media query for desktop */

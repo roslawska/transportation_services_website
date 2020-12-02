@@ -514,7 +514,7 @@ object-fit: cover;
 #footer .footer{
    min-height: 200px;
    flex-direction: column;
-   padding-top: 50px;
+   padding-top: 15px;
    padding-bottom: 10px;
 }
 #footer h2{
@@ -720,6 +720,7 @@ object-fit: cover;
       margin: 1.5%;
    }
    .services .owl-carousel .item img{
+      /* display: bloc; */
       height: 250px;
       width: 250px;
       object-fit: cover;
